@@ -13,10 +13,17 @@ private:
 public:
     Dice();
     Dice(int face, int back, int up, int down, int left, int right);
+    //tips the dice
     int rollUp();
     int rollDown();
     int rollLeft();
     int rollRight();
+
+    //checks the value if the dice was tipped
+    int checkUp();
+    int checkDown();
+    int checkLeft();
+    int checkRight();
 };
 
 #endif

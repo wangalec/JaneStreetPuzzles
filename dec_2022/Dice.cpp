@@ -49,4 +49,20 @@ int Dice::rollRight(){
     return face_;
 }
 
+int Dice::checkUp(){
+    return down_;
+}
+
+int Dice::checkDown(){
+    return up_;
+}
+
+int Dice::checkLeft(){
+    return right_;
+}
+
+int Dice::checkRight(){
+    return left_;
+}
+
 
