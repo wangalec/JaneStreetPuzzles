@@ -20,23 +20,23 @@ vector<int> search(){
 
     int face = 9, back = 7, up = -9, down = 5, left = 9, right = -3;
 
-    int range = 10;
+    // int range = 10;
 
-    for(int a = -range; a <= range; a++){
-    face = a;
+    // for(int a = -range; a <= range; a++){
+    // face = a;
         
-    for(int b = -range; b <= range; b++){
-    back = b;
+    // for(int b = -range; b <= range; b++){
+    // back = b;
         
-    for(int c = -range; c <= range; c++){
-    up = c;
+    // for(int c = -range; c <= range; c++){
+    // up = c;
             
-    for(int d = -range; d <= range; d++){
-    left = d;
+    // for(int d = -range; d <= range; d++){
+    // left = d;
                 
-    for(int e = -range; e <= range; e++){
-    right = e;
-    down = 5;
+    // for(int e = -range; e <= range; e++){
+    // right = e;
+    // down = 5;
 
     rand()&(20+1) - 10;
 
@@ -134,7 +134,7 @@ vector<int> search(){
             cout << "Failed at " << grid[y][x] << endl;
             break;
         }
-    }}}}}
+    // }}}}}
 }
 
 
